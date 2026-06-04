@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 210" role="img" aria-label="Tiens">
+  <g fill="#1aa64b">
+    <!-- Sol yaprak -->
+    <g transform="translate(120,182) rotate(-23)">
+      <path d="M0 0 C28 -40 28 -83 0 -126 C-28 -83 -28 -40 0 0 Z"/>
+      <path d="M0 -10 C5 -46 5 -82 0 -116" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
+    </g>
+    <!-- Sağ yaprak -->
+    <g transform="translate(120,182) rotate(23)">
+      <path d="M0 0 C28 -40 28 -83 0 -126 C-28 -83 -28 -40 0 0 Z"/>
+      <path d="M0 -10 C5 -46 5 -82 0 -116" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
+    </g>
+    <!-- Orta yaprak (üstte) -->
+    <g transform="translate(120,184)">
+      <path d="M0 0 C33 -48 33 -99 0 -150 C-33 -99 -33 -48 0 0 Z"/>
+      <path d="M0 -12 C6 -55 6 -98 0 -138" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

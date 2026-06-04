@@ -1,0 +1,12 @@
+# Editör / araç dosyaları
+.claude/
+*.log
+
+# OS dosyaları
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Geçici dosyalar
+*.tmp
+*_home.html
