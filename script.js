@@ -55,6 +55,23 @@ document.addEventListener('DOMContentLoaded', () => {
     reveals.forEach(el => el.classList.add('in'));
   }
 
+  /* --- Ürün kategorileri accordion (tek seferde bir kategori açık) --- */
+  const categories = document.querySelectorAll('.category');
+  categories.forEach(cat => {
+    const head = cat.querySelector('.category-head');
+    head?.addEventListener('click', () => {
+      const willOpen = !cat.classList.contains('open');
+      categories.forEach(c => {
+        c.classList.remove('open');
+        c.querySelector('.category-head')?.setAttribute('aria-expanded', 'false');
+      });
+      if (willOpen) {
+        cat.classList.add('open');
+        head.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
   /* --- Görsel yedekleri: gerçek görsel yüklenince emojiyi gizle --- */
   document.querySelectorAll('.img-fill, .img-contain').forEach(img => {
     const markLoaded = () => img.parentElement?.classList.add('has-img');

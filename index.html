@@ -135,58 +135,115 @@
       <div class="section-head reveal">
         <span class="eyebrow">Ürün Dünyamız</span>
         <h2>Sağlığınız için özenle seçildi</h2>
-        <p>Geniş ürün yelpazemizi keşfedin ve resmi mağazalarımızdan güvenle sipariş verin.</p>
+        <p>Kategorilere tıklayın, ürünlerimiz fotoğraflarıyla açılsın. 👇</p>
       </div>
 
-      <div class="product-grid">
-        <article class="product-card reveal">
-          <div class="product-emoji">
-            <span class="emoji-fallback">🍯</span>
-            <img class="img-fill" src="images/urun-bal.jpg" alt="Bal ve arı ürünleri" onerror="this.remove()" />
+      <div class="category-accordion reveal">
+
+        <!-- Gıda Takviyeleri -->
+        <article class="category open">
+          <button class="category-head" aria-expanded="true">
+            <span class="cat-emoji">💊</span>
+            <span class="cat-title"><h3>Gıda Takviyeleri</h3><span class="cat-count">6 ürün</span></span>
+            <span class="cat-arrow" aria-hidden="true">⌄</span>
+          </button>
+          <div class="category-body">
+            <div class="product-list">
+              <figure class="p-item">
+                <div class="p-img"><span class="emoji-fallback">💊</span><img class="img-contain" src="images/products/omega3-200.png" alt="Balen Omega-3 200 Kapsül" onerror="this.remove()" /></div>
+                <figcaption><span class="p-brand balen">Balen</span>Omega-3 Balık Yağı 200 Kapsül</figcaption>
+              </figure>
+              <figure class="p-item">
+                <div class="p-img"><span class="emoji-fallback">🌼</span><img class="img-contain" src="images/products/sari-kantaron.jpg" alt="Balen Sarı Kantaron Kapsül" onerror="this.remove()" /></div>
+                <figcaption><span class="p-brand balen">Balen</span>Sarı Kantaron Ekstraktı Kapsül</figcaption>
+              </figure>
+              <figure class="p-item">
+                <div class="p-img"><span class="emoji-fallback">🖤</span><img class="img-contain" src="images/products/corekotu-kapsul.png" alt="Balen Çörek Otu Yağı Kapsül" onerror="this.remove()" /></div>
+                <figcaption><span class="p-brand balen">Balen</span>Çörek Otu Yağı Yumuşak Kapsül</figcaption>
+              </figure>
+              <figure class="p-item">
+                <div class="p-img"><span class="emoji-fallback">❤️</span><img class="img-contain" src="images/products/hemout.png" alt="Balen Hemout Kapsül" onerror="this.remove()" /></div>
+                <figcaption><span class="p-brand balen">Balen</span>Hemout Kapsül</figcaption>
+              </figure>
+              <figure class="p-item">
+                <div class="p-img"><span class="emoji-fallback">🥒</span><img class="img-contain" src="images/products/kudret-nari.png" alt="Balen Kudret Narı Kapsül" onerror="this.remove()" /></div>
+                <figcaption><span class="p-brand balen">Balen</span>Kudret Narı Propolis Kapsül</figcaption>
+              </figure>
+              <figure class="p-item">
+                <div class="p-img"><span class="emoji-fallback">💊</span><img class="img-contain" src="images/products/cinko-tiens.png" alt="Tiens Yumurta Kabuğu Çinko Kapsül" onerror="this.remove()" /></div>
+                <figcaption><span class="p-brand tiens">Tiens</span>Yumurta Kabuğu Çinko Kapsül</figcaption>
+              </figure>
+            </div>
           </div>
-          <h3>Bal &amp; Arı Ürünleri</h3>
-          <p>Doğal bal, polen, propolis ve arı sütü çeşitleri.</p>
         </article>
-        <article class="product-card reveal">
-          <div class="product-emoji">
-            <span class="emoji-fallback">💊</span>
-            <img class="img-fill" src="images/urun-takviye.jpg" alt="Gıda takviyeleri" onerror="this.remove()" />
+
+        <!-- Bitkisel Ürünler -->
+        <article class="category">
+          <button class="category-head" aria-expanded="false">
+            <span class="cat-emoji">🌿</span>
+            <span class="cat-title"><h3>Bitkisel Ürünler</h3><span class="cat-count">2 ürün</span></span>
+            <span class="cat-arrow" aria-hidden="true">⌄</span>
+          </button>
+          <div class="category-body">
+            <div class="product-list">
+              <figure class="p-item">
+                <div class="p-img"><span class="emoji-fallback">🖤</span><img class="img-contain" src="images/products/corekotu-yagi.png" alt="Balen Çörek Otu Yağı" onerror="this.remove()" /></div>
+                <figcaption><span class="p-brand balen">Balen</span>Çörek Otu Yağı</figcaption>
+              </figure>
+              <figure class="p-item">
+                <div class="p-img"><span class="emoji-fallback">🍄</span><img class="img-contain" src="images/products/kordisep.png" alt="Tiens Kordisep Mantarı" onerror="this.remove()" /></div>
+                <figcaption><span class="p-brand tiens">Tiens</span>Kordisep (Cordyceps) Mantarı</figcaption>
+              </figure>
+            </div>
           </div>
-          <h3>Gıda Takviyeleri</h3>
-          <p>Vitamin, mineral ve bitkisel destekleyici takviyeler.</p>
         </article>
-        <article class="product-card reveal">
-          <div class="product-emoji">
-            <span class="emoji-fallback">🧼</span>
-            <img class="img-fill" src="images/urun-hijyen.jpg" alt="Hijyenik ürünler" onerror="this.remove()" />
+
+        <!-- Doğal Çiçek Suları -->
+        <article class="category">
+          <button class="category-head" aria-expanded="false">
+            <span class="cat-emoji">💧</span>
+            <span class="cat-title"><h3>Doğal Çiçek Suları</h3><span class="cat-count">3 ürün</span></span>
+            <span class="cat-arrow" aria-hidden="true">⌄</span>
+          </button>
+          <div class="category-body">
+            <div class="product-list">
+              <figure class="p-item">
+                <div class="p-img"><span class="emoji-fallback">🌼</span><img class="img-contain" src="images/products/papatya-hidrosol.jpg" alt="Balen Papatya Hidrosolü" onerror="this.remove()" /></div>
+                <figcaption><span class="p-brand balen">Balen</span>Papatya Hidrosolü</figcaption>
+              </figure>
+              <figure class="p-item">
+                <div class="p-img"><span class="emoji-fallback">🪻</span><img class="img-contain" src="images/products/lavanta-suyu.jpg" alt="Balen Lavanta Suyu" onerror="this.remove()" /></div>
+                <figcaption><span class="p-brand balen">Balen</span>Lavanta Suyu</figcaption>
+              </figure>
+              <figure class="p-item">
+                <div class="p-img"><span class="emoji-fallback">🌿</span><img class="img-contain" src="images/products/biberiye-suyu.jpg" alt="Balen Biberiye Suyu" onerror="this.remove()" /></div>
+                <figcaption><span class="p-brand balen">Balen</span>Biberiye Suyu</figcaption>
+              </figure>
+            </div>
           </div>
-          <h3>Hijyenik Ürünler</h3>
-          <p>Günlük kullanım için hijyenik ve doğal bakım ürünleri.</p>
         </article>
-        <article class="product-card reveal">
-          <div class="product-emoji">
-            <span class="emoji-fallback">🌿</span>
-            <img class="img-fill" src="images/urun-bitkisel.jpg" alt="Bitkisel ürünler" onerror="this.remove()" />
+
+        <!-- Hijyenik Ürünler -->
+        <article class="category">
+          <button class="category-head" aria-expanded="false">
+            <span class="cat-emoji">🧼</span>
+            <span class="cat-title"><h3>Hijyenik Ürünler</h3><span class="cat-count">2 ürün</span></span>
+            <span class="cat-arrow" aria-hidden="true">⌄</span>
+          </button>
+          <div class="category-body">
+            <div class="product-list">
+              <figure class="p-item">
+                <div class="p-img"><span class="emoji-fallback">🌸</span><img class="img-contain" src="images/products/hijyenik-ped.jpg" alt="Tiens Hijyenik Ped" onerror="this.remove()" /></div>
+                <figcaption><span class="p-brand tiens">Tiens</span>Hijyenik Ped</figcaption>
+              </figure>
+              <figure class="p-item">
+                <div class="p-img"><span class="emoji-fallback">🪥</span><img class="img-contain" src="images/products/dis-macunu.jpg" alt="Tiens Diş Macunu" onerror="this.remove()" /></div>
+                <figcaption><span class="p-brand tiens">Tiens</span>Diş Macunu</figcaption>
+              </figure>
+            </div>
           </div>
-          <h3>Bitkisel Ürünler</h3>
-          <p>Doğadan gelen bitkisel içerikli sağlık ürünleri.</p>
         </article>
-        <article class="product-card reveal">
-          <div class="product-emoji">
-            <span class="emoji-fallback">✨</span>
-            <img class="img-fill" src="images/urun-bakim.jpg" alt="Kişisel bakım" onerror="this.remove()" />
-          </div>
-          <h3>Kişisel Bakım</h3>
-          <p>Cilt ve vücut bakımı için özenle seçilmiş ürünler.</p>
-        </article>
-        <article class="product-card reveal">
-          <div class="product-emoji">
-            <span class="emoji-fallback">🛡️</span>
-            <img class="img-fill" src="images/urun-bagisiklik.jpg" alt="Bağışıklık desteği" onerror="this.remove()" />
-          </div>
-          <h3>Bağışıklık Desteği</h3>
-          <p>Bağışıklık sistemini destekleyen doğal formüller.</p>
-        </article>
+
       </div>
 
       <div class="store-banner reveal">

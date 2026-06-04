@@ -30,6 +30,24 @@ MARKA LOGOLARI
   urun-bakim.jpg        -> Kişisel Bakım
   urun-bagisiklik.jpg   -> Bağışıklık Desteği
 
+ÜRÜN FOTOĞRAFLARI  (images/products/ klasörü)
+----------------------------------------------
+Ürünler bölümündeki kategorilerde, ürünler fotoğraflarıyla görünür.
+Aşağıdaki 6 ürünün fotoğrafı HAZIR (Balen resmi sitesinden indirildi):
+  omega3-200.png, sari-kantaron.jpg, corekotu-kapsul.png,
+  hemout.png, kudret-nari.png, corekotu-yagi.png
+
+Şu 7 ürünün fotoğrafı EKSİK -> images/products/ klasörüne tam bu adlarla
+eklediğinizde sitede otomatik görünür (eklenene kadar emoji görünür):
+  cinko-tiens.png        -> Tiens Yumurta Kabuğu Çinko Kapsül
+  kordisep.png           -> Tiens Kordisep (Cordyceps) Mantarı
+  papatya-hidrosol.jpg   -> Balen Papatya Hidrosolü
+  lavanta-suyu.jpg       -> Balen Lavanta Suyu
+  biberiye-suyu.jpg      -> Balen Biberiye Suyu
+  hijyenik-ped.jpg       -> Tiens Hijyenik Ped
+  dis-macunu.jpg         -> Tiens Diş Macunu
+İpucu: Bu fotoğrafları kendi Trendyol/Hepsiburada mağazanızdan kaydedebilirsiniz.
+
 NOTLAR
 ------
 - .jpg yerine .png de kullanabilirsiniz; ama o zaman index.html içindeki
